@@ -49,6 +49,7 @@ Framework: .NET 8.0+ / EF Core
 Pattern: Repository Pattern, Unit of Work, Clean Architecture
 
 📈 Architecture Diagram (UML)
+![Architecture Diagram](./keskeinen-framework-csharp-uml.png)
 
 程式碼片段
 graph TD
@@ -59,4 +60,4 @@ graph TD
     end
     Repo1 --> UoW[Unit of Work]
     Repo2 --> UoW
-    UoW --> DB[(Multiple Databases)]
+    UoW --> DB[(Core Database & Log Database)]
