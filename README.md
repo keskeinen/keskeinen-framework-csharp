@@ -61,3 +61,9 @@ graph TD
     Repo1 --> UoW[Unit of Work]
     Repo2 --> UoW
     UoW --> DB[(Core Database & Log Database)]
+
+---
+👤 Author
+[keskeinen]
+
+GitHub: @keskeinen
